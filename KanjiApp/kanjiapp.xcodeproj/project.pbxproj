@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBA4DDB2449B48C009677CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA4DDA2449B48C009677CB /* AppDelegate.swift */; };
+		2FBA4DDD2449B48C009677CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA4DDC2449B48C009677CB /* SceneDelegate.swift */; };
+		2FBA4DE02449B48C009677CB /* KanjiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA4DDE2449B48C009677CB /* KanjiApp.xcdatamodeld */; };
+		2FBA4DE22449B48C009677CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA4DE12449B48C009677CB /* ContentView.swift */; };
+		2FBA4DE42449B48F009677CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA4DE32449B48F009677CB /* Assets.xcassets */; };
+		2FBA4DE72449B48F009677CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA4DE62449B48F009677CB /* Preview Assets.xcassets */; };
+		2FBA4DEA2449B48F009677CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA4DE82449B48F009677CB /* LaunchScreen.storyboard */; };
+		2FBA4DF52449B48F009677CB /* KanjiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA4DF42449B48F009677CB /* KanjiAppTests.swift */; };
+		2FBA4E002449B48F009677CB /* KanjiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA4DFF2449B48F009677CB /* KanjiAppUITests.swift */; };
+		2FBA4E102449C790009677CB /* testpackage in Frameworks */ = {isa = PBXBuildFile; productRef = 2FBA4E0F2449C790009677CB /* testpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBA4DF12449B48F009677CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBA4DCF2449B48C009677CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBA4DD62449B48C009677CB;
+			remoteInfo = KanjiApp;
+		};
+		2FBA4DFC2449B48F009677CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBA4DCF2449B48C009677CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBA4DD62449B48C009677CB;
+			remoteInfo = KanjiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FBA4DD72449B48C009677CB /* KanjiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA4DDA2449B48C009677CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FBA4DDC2449B48C009677CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FBA4DDF2449B48C009677CB /* KanjiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KanjiApp.xcdatamodel; sourceTree = "<group>"; };
+		2FBA4DE12449B48C009677CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FBA4DE32449B48F009677CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBA4DE62449B48F009677CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FBA4DE92449B48F009677CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBA4DEB2449B48F009677CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA4DF02449B48F009677CB /* KanjiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA4DF42449B48F009677CB /* KanjiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiAppTests.swift; sourceTree = "<group>"; };
+		2FBA4DF62449B48F009677CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA4DFB2449B48F009677CB /* KanjiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA4DFF2449B48F009677CB /* KanjiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiAppUITests.swift; sourceTree = "<group>"; };
+		2FBA4E012449B48F009677CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA4E0D2449B52E009677CB /* testpackage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = testpackage; path = ../testpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBA4DD42449B48C009677CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA4E102449C790009677CB /* testpackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA4DED2449B48F009677CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA4DF82449B48F009677CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBA4DCE2449B48C009677CB = {
+			isa = PBXGroup;
+			children = (
+				2FBA4E0D2449B52E009677CB /* testpackage */,
+				2FBA4DD92449B48C009677CB /* KanjiApp */,
+				2FBA4DF32449B48F009677CB /* KanjiAppTests */,
+				2FBA4DFE2449B48F009677CB /* KanjiAppUITests */,
+				2FBA4DD82449B48C009677CB /* Products */,
+				2FBA4E0E2449C790009677CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBA4DD82449B48C009677CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA4DD72449B48C009677CB /* KanjiApp.app */,
+				2FBA4DF02449B48F009677CB /* KanjiAppTests.xctest */,
+				2FBA4DFB2449B48F009677CB /* KanjiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBA4DD92449B48C009677CB /* KanjiApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA4DDA2449B48C009677CB /* AppDelegate.swift */,
+				2FBA4DDC2449B48C009677CB /* SceneDelegate.swift */,
+				2FBA4DE12449B48C009677CB /* ContentView.swift */,
+				2FBA4DE32449B48F009677CB /* Assets.xcassets */,
+				2FBA4DE82449B48F009677CB /* LaunchScreen.storyboard */,
+				2FBA4DEB2449B48F009677CB /* Info.plist */,
+				2FBA4DDE2449B48C009677CB /* KanjiApp.xcdatamodeld */,
+				2FBA4DE52449B48F009677CB /* Preview Content */,
+			);
+			path = KanjiApp;
+			sourceTree = "<group>";
+		};
+		2FBA4DE52449B48F009677CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA4DE62449B48F009677CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FBA4DF32449B48F009677CB /* KanjiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA4DF42449B48F009677CB /* KanjiAppTests.swift */,
+				2FBA4DF62449B48F009677CB /* Info.plist */,
+			);
+			path = KanjiAppTests;
+			sourceTree = "<group>";
+		};
+		2FBA4DFE2449B48F009677CB /* KanjiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA4DFF2449B48F009677CB /* KanjiAppUITests.swift */,
+				2FBA4E012449B48F009677CB /* Info.plist */,
+			);
+			path = KanjiAppUITests;
+			sourceTree = "<group>";
+		};
+		2FBA4E0E2449C790009677CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBA4DD62449B48C009677CB /* KanjiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA4E042449B48F009677CB /* Build configuration list for PBXNativeTarget "KanjiApp" */;
+			buildPhases = (
+				2FBA4DD32449B48C009677CB /* Sources */,
+				2F17C7542449D9440004C23B /* ShellScript */,
+				2FBA4DD42449B48C009677CB /* Frameworks */,
+				2FBA4DD52449B48C009677CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiApp;
+			packageProductDependencies = (
+				2FBA4E0F2449C790009677CB /* testpackage */,
+			);
+			productName = KanjiApp;
+			productReference = 2FBA4DD72449B48C009677CB /* KanjiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBA4DEF2449B48F009677CB /* KanjiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA4E072449B48F009677CB /* Build configuration list for PBXNativeTarget "KanjiAppTests" */;
+			buildPhases = (
+				2FBA4DEC2449B48F009677CB /* Sources */,
+				2FBA4DED2449B48F009677CB /* Frameworks */,
+				2FBA4DEE2449B48F009677CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBA4DF22449B48F009677CB /* PBXTargetDependency */,
+			);
+			name = KanjiAppTests;
+			productName = KanjiAppTests;
+			productReference = 2FBA4DF02449B48F009677CB /* KanjiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FBA4DFA2449B48F009677CB /* KanjiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA4E0A2449B48F009677CB /* Build configuration list for PBXNativeTarget "KanjiAppUITests" */;
+			buildPhases = (
+				2FBA4DF72449B48F009677CB /* Sources */,
+				2FBA4DF82449B48F009677CB /* Frameworks */,
+				2FBA4DF92449B48F009677CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBA4DFD2449B48F009677CB /* PBXTargetDependency */,
+			);
+			name = KanjiAppUITests;
+			productName = KanjiAppUITests;
+			productReference = 2FBA4DFB2449B48F009677CB /* KanjiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBA4DCF2449B48C009677CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Omar Diab";
+				TargetAttributes = {
+					2FBA4DD62449B48C009677CB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					2FBA4DEF2449B48F009677CB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2FBA4DD62449B48C009677CB;
+					};
+					2FBA4DFA2449B48F009677CB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 2FBA4DD62449B48C009677CB;
+					};
+				};
+			};
+			buildConfigurationList = 2FBA4DD22449B48C009677CB /* Build configuration list for PBXProject "KanjiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBA4DCE2449B48C009677CB;
+			productRefGroup = 2FBA4DD82449B48C009677CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBA4DD62449B48C009677CB /* KanjiApp */,
+				2FBA4DEF2449B48F009677CB /* KanjiAppTests */,
+				2FBA4DFA2449B48F009677CB /* KanjiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBA4DD52449B48C009677CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA4DEA2449B48F009677CB /* LaunchScreen.storyboard in Resources */,
+				2FBA4DE72449B48F009677CB /* Preview Assets.xcassets in Resources */,
+				2FBA4DE42449B48F009677CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA4DEE2449B48F009677CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA4DF92449B48F009677CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F17C7542449D9440004C23B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBA4DD32449B48C009677CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA4DE02449B48C009677CB /* KanjiApp.xcdatamodeld in Sources */,
+				2FBA4DDB2449B48C009677CB /* AppDelegate.swift in Sources */,
+				2FBA4DE22449B48C009677CB /* ContentView.swift in Sources */,
+				2FBA4DDD2449B48C009677CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA4DEC2449B48F009677CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA4DF52449B48F009677CB /* KanjiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA4DF72449B48F009677CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA4E002449B48F009677CB /* KanjiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBA4DF22449B48F009677CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBA4DD62449B48C009677CB /* KanjiApp */;
+			targetProxy = 2FBA4DF12449B48F009677CB /* PBXContainerItemProxy */;
+		};
+		2FBA4DFD2449B48F009677CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBA4DD62449B48C009677CB /* KanjiApp */;
+			targetProxy = 2FBA4DFC2449B48F009677CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FBA4DE82449B48F009677CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBA4DE92449B48F009677CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBA4E022449B48F009677CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FBA4E032449B48F009677CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBA4E052449B48F009677CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KanjiApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KanjiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osdiab.KanjiApp;
+				PRODUCT_NAME = KanjiApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBA4E062449B48F009677CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KanjiApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KanjiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osdiab.KanjiApp;
+				PRODUCT_NAME = KanjiApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FBA4E082449B48F009677CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KanjiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osdiab.KanjiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiApp.app/KanjiApp";
+			};
+			name = Debug;
+		};
+		2FBA4E092449B48F009677CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KanjiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osdiab.KanjiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiApp.app/KanjiApp";
+			};
+			name = Release;
+		};
+		2FBA4E0B2449B48F009677CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KanjiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osdiab.KanjiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KanjiApp;
+			};
+			name = Debug;
+		};
+		2FBA4E0C2449B48F009677CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KanjiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = osdiab.KanjiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KanjiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBA4DD22449B48C009677CB /* Build configuration list for PBXProject "KanjiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA4E022449B48F009677CB /* Debug */,
+				2FBA4E032449B48F009677CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA4E042449B48F009677CB /* Build configuration list for PBXNativeTarget "KanjiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA4E052449B48F009677CB /* Debug */,
+				2FBA4E062449B48F009677CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA4E072449B48F009677CB /* Build configuration list for PBXNativeTarget "KanjiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA4E082449B48F009677CB /* Debug */,
+				2FBA4E092449B48F009677CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA4E0A2449B48F009677CB /* Build configuration list for PBXNativeTarget "KanjiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA4E0B2449B48F009677CB /* Debug */,
+				2FBA4E0C2449B48F009677CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FBA4E0F2449C790009677CB /* testpackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = testpackage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2FBA4DDE2449B48C009677CB /* KanjiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FBA4DDF2449B48C009677CB /* KanjiApp.xcdatamodel */,
+			);
+			currentVersion = 2FBA4DDF2449B48C009677CB /* KanjiApp.xcdatamodel */;
+			path = KanjiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FBA4DCF2449B48C009677CB /* Project object */;
+}
